@@ -1,14 +1,19 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: olive;
-
+    background-color: black;
 }
-h1{
-    font-size: 20rem;
-    font-family: Montserrat;
+
+h1 {
+    font-size: 5rem;
+    /* font-family: Montserrat; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.letter {
+    transition: color 1000ms;
 }
 
  
